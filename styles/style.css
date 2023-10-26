@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../assets/fonts/TTLakes-Medium.eot");
+  src: local("../assets/fonts/TT Lakes Medium"), local("../assets/fonts/TTLakes-Medium"), url("../assets/fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/TTLakes-Medium.woff") format("woff"), url("../assets/fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../assets/fonts/TTLakes-Bold.eot");
+  src: local("../assets/fonts/TT Lakes Bold"), local("../assets/fonts/TTLakes-Bold"), url("../assets/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/TTLakes-Bold.woff") format("woff"), url("../assets/fonts/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../assets/fonts/TTLakes-DemiBold.eot");
+  src: local("../assets/fonts/TT Lakes DemiBold"), local("../assets/fonts/TTLakes-DemiBold"), url("../assets/fonts/TTLakes-DemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/TTLakes-DemiBold.woff") format("woff"), url("../assets/fonts/TTLakes-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.container__card {
+  width: 100vw;
+  background: #f8f8f8;
+}
+
+.header {
+  border-top: 1px solid #d9fff5;
+  background: linear-gradient(270deg, #fff 0%, #f8f8f8 98.61%);
+}
+.header__title {
+  margin: auto;
+  padding: 16px;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: #7e7e82;
+  white-space: pre-wrap;
+}
+
+.card__list {
+  width: 100vh;
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.card__link {
+  max-width: 240px;
+  max-height: 72px;
+  border-radius: 6px;
+}
+.card__link:last-child {
+  margin-right: 32px;
+}
+.card__element {
+  width: 240px;
+  height: 72px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  background: #ffffff;
+}
+.card__rotate {
+  margin-bottom: 25px;
+}
+
+.swiper {
+  width: 100vw;
+  height: 155px;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #dddddd !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #b5b6bc !important;
+}/*# sourceMappingURL=style.css.map */
