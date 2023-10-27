@@ -129,7 +129,6 @@ $cardBorder: 1px solid #eaeaea;
         margin: 16px;
         display: flex;
         justify-content: space-between;
-        column-gap: 16px;
         @media (min-width: 768px) {
             margin: 24px;
             column-gap: 24px;
@@ -148,6 +147,9 @@ $cardBorder: 1px solid #eaeaea;
         border-radius: 6px;
         @media (min-width: 768px) and (max-width: 1119.5px) {
             max-width: 224px;
+        }
+        @media (min-width: 768px) {
+            margin-right: 0 !important;
         }
     }
     &__link:last-child {

@@ -98,8 +98,6 @@
   margin: 16px;
   display: flex;
   justify-content: space-between;
-  -moz-column-gap: 16px;
-       column-gap: 16px;
 }
 @media (min-width: 768px) {
   .card__list {
@@ -126,6 +124,11 @@
 @media (min-width: 768px) and (max-width: 1119.5px) {
   .card__link {
     max-width: 224px;
+  }
+}
+@media (min-width: 768px) {
+  .card__link {
+    margin-right: 0 !important;
   }
 }
 .card__link:last-child {
