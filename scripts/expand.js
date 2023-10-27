@@ -1,26 +1,3 @@
-const swiper = new Swiper(".swiper", {
-  slidesPerView: "auto",
-  keyboard: {
-    enabled: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
-
-if (window.innerWidth > 768) {
-  swiper.disable();
-}
-
-window.addEventListener("resize", function () {
-  if (window.innerWidth < 768) {
-    swiper.enable();
-  } else {
-    swiper.disable();
-  }
-});
-
 let expandButton = document.querySelector(".expand__button");
 let expandImage = document.querySelector(".expand__image");
 let expandText = document.querySelector(".expand__text");
