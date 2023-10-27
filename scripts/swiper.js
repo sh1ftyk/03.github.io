@@ -3,6 +3,7 @@ const swiper = new Swiper(".swiper", {
   keyboard: {
     enabled: true,
   },
+  mousewheel: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
