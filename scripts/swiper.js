@@ -19,6 +19,7 @@ window.addEventListener("resize", function () {
   if (window.innerWidth < 768) {
     swiper.enable();
   } else {
+    swiper.slideTo(0, 0,)
     swiper.disable();
   }
 });
